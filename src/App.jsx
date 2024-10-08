@@ -1,10 +1,17 @@
 import './App.css'
+import Header from "./component/Header"
+import Nav from './component/Nav'
+import Main from './component/Main'
+import Footer from './component/Footer'
 
-function App() {
+const App = () => {
   return (
     <>
       <div>
-        <h1>Homepage</h1>
+        <Nav />
+        <Header />
+        <Main />
+        <Footer />
       </div>
     </>
   )
